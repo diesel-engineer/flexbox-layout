@@ -241,7 +241,7 @@ public class FlexboxLayout extends ViewGroup implements FlexContainer {
         if (drawableVertical != null) {
             setDividerDrawableVertical(drawableVertical);
         }
-        int dividerMode = a.getInt(R.styleable.FlexboxLayout_showDivider, SHOW_DIVIDER_NONE);
+        int dividerMode = a.getInt(R.styleable.FlexboxLayout_showDividerVisibility, SHOW_DIVIDER_NONE);
         if (dividerMode != SHOW_DIVIDER_NONE) {
             mShowDividerVertical = dividerMode;
             mShowDividerHorizontal = dividerMode;
